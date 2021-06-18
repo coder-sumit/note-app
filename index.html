@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Sumits Notes project 1</title>
+</head>
+<body class="bg-my">
+
+  <!-- Bootstrap Navbar -->
+  
+     <div class="nav container-fluid">
+        <h1>Sumit's Notes</h1>
+         <form class="d-flex">
+             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="searchTxt">
+            </form>
+        </div>
+ 
+<div class="img">
+    <img id="buchku" src="img/buchku.png" alt="buchku">
+    <h3 id="buchku_bola" style="padding: 10px; text-align: center; display: none;"> अले मै बुचकु हु ले  हछने  दो अभी मेको डिसतब नई कलों 
+        ये एप ना छुमित भैया बनाए है 
+    </h3>
+</div>
+  <!-- add notes section -->
+  <div class="container my-grey addNote mt-4">
+     <h2>What is in Mind</h2>
+     <input type="text"  id="title" placeholder="Enter Title">
+     <textarea  id="noteTxt" placeholder="Enter Something here ....."></textarea> <br>
+     <button id="noteBtn" >Add Note</button>
+  </div>
+
+  <!-- now showing notes -->
+
+  <h1 style="text-align: center; margin: 20px; color: #845ec2;">My Notes</h1>
+  <div class="container showNote" id="showNote"></div>
+      
+
+    
+  
+  </div>
+  <!-- bootstrap navbar ends -->
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

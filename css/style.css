@@ -1,0 +1,113 @@
+/* .bg-my{
+    background-color: #dddddd;
+} */
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg-nav{
+    background-color: #845ec2;
+}
+.nav{
+    background: #845ec2;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0 20px 0;
+}
+.nav h1{
+    margin-bottom: 1rem;
+}
+.img img{
+    width: 200px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 360px;
+
+}
+
+.addNote{
+    background-color: #dddddd;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-evenly;
+}
+.addNote h2{
+    background-color: #845ec2!important;
+    /* width: 300px; */
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    border-radius: 50px;
+    margin: 30px auto;
+    padding: 5px;
+    display: block;
+    width: 100%;
+   
+}
+.addNote textarea{
+  font-size: 1.6rem;
+  border: none;
+  outline: none;
+  border: 2px solid #eee;
+  padding: 20px;
+}
+.addNote button{
+  font-size: 1.2rem;
+ background-color: #000;
+ border: none;
+ outline: none;
+ padding: 5px;
+ border-radius: 50px;
+ color: white;
+ width: 140px;
+ margin: 20px auto;
+}
+
+
+/* shonotes*/
+.card{
+    text-align: center;
+    margin: 20px auto;
+}
+.card .card-title{
+    font-size: 1.4rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #845ec2;
+    text-align: center;
+    font-weight: bolder;
+}
+.card .card-text{
+    font-size: 1.1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* color: #845ec2; */
+    text-align: center;
+}
+
+.deleteBtn{
+    width: 100px;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+@media only screen and (min-width: 600px) {
+.showNote{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 2rem;
+}
+}
+
+#title{
+    font-size: 1.6rem;
+  border: none;
+  outline: none;
+  border: 2px solid #eee;
+  padding: 20px;
+}
